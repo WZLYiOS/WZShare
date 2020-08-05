@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WZShareKit'
   s.version          = '2.1.0'
-  s.summary          = '我主良缘分享组件'
+  s.summary          = '我主良缘分享组件.'
 
   s.homepage         = 'https://github.com/WZLYiOS/WZShare'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
