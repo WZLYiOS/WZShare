@@ -1,0 +1,515 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10WZShareKit10MonkeyKingC", ""]
+- ["10WZShareKit10MonkeyKingC", "fetchWeChatOAuthInfoByCode"]
+- ["10WZShareKit10MonkeyKingC", "fetchWeiboOAuthInfoByCode"]
+- ["10WZShareKit10MonkeyKingC", "createAlipayMessageDictionary"]
+- ["10WZShareKit10MonkeyKingC", "request"]
+- ["10WZShareKit10MonkeyKingC", "upload"]
+- ["10WZShareKit10MonkeyKingC", "openURL"]
+- ["10WZShareKit10MonkeyKingC", "canOpenURL"]
+provides-dynamic-lookup:
+- "canOpenURL"
+- "createAlipayMessageDictionary"
+- "fetchWeChatOAuthInfoByCode"
+- "fetchWeiboOAuthInfoByCode"
+- "openURL"
+- "request"
+- "upload"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- !private "Data"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "MonkeyKing"
+- "NSNumber"
+- "Networking"
+- "String"
+- !private "StringLiteralType"
+- "UIApplication"
+- !private "UIImage"
+- "URL"
+- !private "URLComponents"
+- !private "URLQueryItem"
+- "Void"
+- !private "fatalError"
+depends-member:
+- !private ["10WZShareKit10MonkeyKingC5ErrorO16APIRequestReasonO", "unrecognizedError"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "weChat"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "weibo"]
+- !private ["SK", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "monkeyking_bundleID"]
+- !private ["So8NSBundleC", "monkeyking_displayName"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Networking"]
+- ["s7CVarArgP", "OpenExternalURLOptionsKey"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "URLComponents"]
+- !private ["s7CVarArgP", "URLQueryItem"]
+- !private ["s7CVarArgP", "accountSet"]
+- !private ["s7CVarArgP", "canOpenURL"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "jpegData"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "monkeyking_bundleID"]
+- !private ["s7CVarArgP", "monkeyking_compressedImageData"]
+- !private ["s7CVarArgP", "monkeyking_displayName"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "openURL"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Networking"]
+- ["s28CustomDebugStringConvertibleP", "OpenExternalURLOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "URLComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "URLQueryItem"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "accountSet"]
+- !private ["s28CustomDebugStringConvertibleP", "canOpenURL"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jpegData"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "monkeyking_bundleID"]
+- !private ["s28CustomDebugStringConvertibleP", "monkeyking_compressedImageData"]
+- !private ["s28CustomDebugStringConvertibleP", "monkeyking_displayName"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "openURL"]
+- !private ["s28CustomDebugStringConvertibleP", "queryItems"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "queryItems"]
+- !private ["s17CustomReflectableP", "string"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Networking"]
+- ["s23CustomStringConvertibleP", "OpenExternalURLOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "URLComponents"]
+- !private ["s23CustomStringConvertibleP", "URLQueryItem"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "accountSet"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "canOpenURL"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jpegData"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "monkeyking_bundleID"]
+- !private ["s23CustomStringConvertibleP", "monkeyking_compressedImageData"]
+- !private ["s23CustomStringConvertibleP", "monkeyking_displayName"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "openURL"]
+- !private ["s23CustomStringConvertibleP", "queryItems"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "init"]
+- !private ["Se", "queryItems"]
+- !private ["Se", "string"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "init"]
+- !private ["SE", "queryItems"]
+- !private ["SE", "string"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "Networking"]
+- ["SQ", "OpenExternalURLOptionsKey"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "URLComponents"]
+- !private ["SQ", "URLQueryItem"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "accountSet"]
+- !private ["SQ", "canOpenURL"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jpegData"]
+- !private ["SQ", "main"]
+- !private ["SQ", "monkeyking_bundleID"]
+- !private ["SQ", "monkeyking_compressedImageData"]
+- !private ["SQ", "monkeyking_displayName"]
+- !private ["SQ", "open"]
+- !private ["SQ", "openURL"]
+- !private ["SQ", "post"]
+- !private ["SQ", "queryItems"]
+- !private ["SQ", "request"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "string"]
+- !private ["SQ", "success"]
+- !private ["SQ", "url"]
+- ["SQ", "weChat"]
+- ["SQ", "weibo"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "apiRequest"]
+- !private ["s5ErrorP", "apiRequest"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "deinit"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "noAccount"]
+- !private ["s5ErrorP", "noAccount"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "sdk"]
+- !private ["s5ErrorP", "sdk"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "Data"]
+- !private ["SH", "Networking"]
+- ["SH", "OpenExternalURLOptionsKey"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "URLComponents"]
+- !private ["SH", "URLQueryItem"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "accountSet"]
+- !private ["SH", "canOpenURL"]
+- !private ["SH", "failure"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- !private ["SH", "jpegData"]
+- !private ["SH", "main"]
+- !private ["SH", "monkeyking_bundleID"]
+- !private ["SH", "monkeyking_compressedImageData"]
+- !private ["SH", "monkeyking_displayName"]
+- !private ["SH", "open"]
+- !private ["SH", "openURL"]
+- !private ["SH", "post"]
+- !private ["SH", "queryItems"]
+- !private ["SH", "request"]
+- !private ["SH", "shared"]
+- !private ["SH", "string"]
+- !private ["SH", "success"]
+- !private ["SH", "url"]
+- ["SH", "weChat"]
+- ["SH", "weibo"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "audio"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "file"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "gif"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "image"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "imageData"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "miniApp"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "url"]
+- ["10WZShareKit10MonkeyKingC5MediaO", "video"]
+- !private ["10WZShareKit10NetworkingC6MethodO", "get"]
+- !private ["10WZShareKit10NetworkingC6MethodO", "post"]
+- ["10WZShareKit10MonkeyKingC", "Bool"]
+- !private ["10WZShareKit10MonkeyKingC", "Bundle"]
+- !private ["10WZShareKit10MonkeyKingC", "Data"]
+- ["10WZShareKit10MonkeyKingC", "Info"]
+- !private ["10WZShareKit10MonkeyKingC", "Int"]
+- ["10WZShareKit10MonkeyKingC", "NSNumber"]
+- ["10WZShareKit10MonkeyKingC", "Networking"]
+- ["10WZShareKit10MonkeyKingC", "OAuthCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "String"]
+- ["10WZShareKit10MonkeyKingC", "UIApplication"]
+- !private ["10WZShareKit10MonkeyKingC", "UIImage"]
+- ["10WZShareKit10MonkeyKingC", "URL"]
+- !private ["10WZShareKit10MonkeyKingC", "URLComponents"]
+- !private ["10WZShareKit10MonkeyKingC", "URLQueryItem"]
+- ["10WZShareKit10MonkeyKingC", "Void"]
+- !private ["10WZShareKit10MonkeyKingC", "accountSet"]
+- ["10WZShareKit10MonkeyKingC", "canOpenURL"]
+- ["10WZShareKit10MonkeyKingC", "createAlipayMessageDictionary"]
+- !private ["10WZShareKit10MonkeyKingC", "fatalError"]
+- ["10WZShareKit10MonkeyKingC", "fetchWeChatOAuthInfoByCode"]
+- ["10WZShareKit10MonkeyKingC", "fetchWeiboOAuthInfoByCode"]
+- ["10WZShareKit10MonkeyKingC", "openURL"]
+- ["10WZShareKit10MonkeyKingC", "request"]
+- !private ["10WZShareKit10MonkeyKingC", "shared"]
+- ["10WZShareKit10MonkeyKingC", "upload"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "jpegData"]
+- !private ["So8NSCodingP", "monkeyking_compressedImageData"]
+- !private ["So21NSItemProviderReadingP", "jpegData"]
+- !private ["So21NSItemProviderReadingP", "monkeyking_compressedImageData"]
+- !private ["So21NSItemProviderWritingP", "jpegData"]
+- !private ["So21NSItemProviderWritingP", "monkeyking_compressedImageData"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Info"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "Networking"]
+- ["So8NSObjectC", "OAuthCompletionHandler"]
+- ["So8NSObjectC", "OpenExternalURLOptionsKey"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLComponents"]
+- !private ["So8NSObjectC", "URLQueryItem"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "accountSet"]
+- ["So8NSObjectC", "canOpenURL"]
+- ["So8NSObjectC", "createAlipayMessageDictionary"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "fetchWeChatOAuthInfoByCode"]
+- ["So8NSObjectC", "fetchWeiboOAuthInfoByCode"]
+- !private ["So8NSObjectC", "jpegData"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "monkeyking_bundleID"]
+- !private ["So8NSObjectC", "monkeyking_compressedImageData"]
+- !private ["So8NSObjectC", "monkeyking_displayName"]
+- !private ["So8NSObjectC", "open"]
+- ["So8NSObjectC", "openURL"]
+- ["So8NSObjectC", "request"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "upload"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "Networking"]
+- ["So8NSObjectP", "OpenExternalURLOptionsKey"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "URLComponents"]
+- !private ["So8NSObjectP", "URLQueryItem"]
+- !private ["So8NSObjectP", "accountSet"]
+- !private ["So8NSObjectP", "canOpenURL"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "jpegData"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "monkeyking_bundleID"]
+- !private ["So8NSObjectP", "monkeyking_compressedImageData"]
+- !private ["So8NSObjectP", "monkeyking_displayName"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "openURL"]
+- !private ["So8NSObjectP", "request"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So14NSSecureCodingP", "jpegData"]
+- !private ["So14NSSecureCodingP", "monkeyking_compressedImageData"]
+- ["10WZShareKit10NetworkingC", "Method"]
+- ["10WZShareKit10NetworkingC", "NetworkingResponseHandler"]
+- ["10WZShareKit10NetworkingC", "ParameterEncoding"]
+- !private ["10WZShareKit10NetworkingC", "request"]
+- !private ["10WZShareKit10NetworkingC", "shared"]
+- !private ["10WZShareKit10NetworkingC", "upload"]
+- !private ["10WZShareKit10NetworkingC17ParameterEncodingO", "url"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "get"]
+- !private ["SY", "post"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "queryItems"]
+- !private ["10Foundation20ReferenceConvertibleP", "string"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO9SDKReasonO", "invalidURLScheme"]
+- !private ["ST", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["10WZShareKit24SupportedPlatformCapableP", "weChat"]
+- ["10WZShareKit24SupportedPlatformCapableP", "weibo"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "jpegData"]
+- !private ["So29UIAccessibilityIdentificationP", "monkeyking_compressedImageData"]
+- ["So13UIApplicationC", "OpenExternalURLOptionsKey"]
+- !private ["So13UIApplicationC", "canOpenURL"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "openURL"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So7UIImageC", "jpegData"]
+- !private ["So7UIImageC", "monkeyking_compressedImageData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "jpegData"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "monkeyking_compressedImageData"]
+- ["So30UIPasteConfigurationSupportingP", "OpenExternalURLOptionsKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "canOpenURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "openURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", "OpenExternalURLOptionsKey"]
+- !private ["So11UIResponderC", "canOpenURL"]
+- !private ["So11UIResponderC", "open"]
+- !private ["So11UIResponderC", "openURL"]
+- !private ["So11UIResponderC", "shared"]
+- ["So30UIResponderStandardEditActionsP", "OpenExternalURLOptionsKey"]
+- !private ["So30UIResponderStandardEditActionsP", "canOpenURL"]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "openURL"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So23UIUserActivityRestoringP", "OpenExternalURLOptionsKey"]
+- !private ["So23UIUserActivityRestoringP", "canOpenURL"]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "openURL"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation13URLComponentsV", "init"]
+- !private ["10Foundation13URLComponentsV", "queryItems"]
+- !private ["10Foundation13URLComponentsV", "string"]
+- !private ["10Foundation12URLQueryItemV", "init"]
+- !private ["So20WKNavigationDelegateP", "Bundle"]
+- !private ["So20WKNavigationDelegateP", "Data"]
+- !private ["So20WKNavigationDelegateP", "Networking"]
+- !private ["So20WKNavigationDelegateP", "UIApplication"]
+- !private ["So20WKNavigationDelegateP", "URLComponents"]
+- !private ["So20WKNavigationDelegateP", "URLQueryItem"]
+- !private ["So20WKNavigationDelegateP", "accountSet"]
+- !private ["So20WKNavigationDelegateP", "fatalError"]
+- !private ["So20WKNavigationDelegateP", "request"]
+- !private ["So20WKNavigationDelegateP", "shared"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s26_ExpressibleByImageLiteralP", "jpegData"]
+- !private ["s26_ExpressibleByImageLiteralP", "monkeyking_compressedImageData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Networking"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "OpenExternalURLOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLQueryItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accountSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canOpenURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jpegData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monkeyking_bundleID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monkeyking_compressedImageData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "monkeyking_displayName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Networking"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OpenExternalURLOptionsKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLComponents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLQueryItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accountSet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canOpenURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jpegData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monkeyking_bundleID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monkeyking_compressedImageData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monkeyking_displayName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "open"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "request"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "queryItems"]
+- !private ["s21_ObjectiveCBridgeableP", "string"]
+depends-nominal:
+- !private "10WZShareKit10MonkeyKingC5ErrorO16APIRequestReasonO"
+- "10WZShareKit10MonkeyKingC7AccountO"
+- !private "SK"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "10WZShareKit10MonkeyKingC5ErrorO"
+- !private "s5ErrorP"
+- !private "10WZShareKit10MonkeyKingC5ErrorO"
+- !private "s5ErrorP"
+- !private "10WZShareKit10MonkeyKingC5ErrorO"
+- !private "s5ErrorP"
+- "SH"
+- "10WZShareKit10MonkeyKingC5MediaO"
+- !private "10WZShareKit10NetworkingC6MethodO"
+- "10WZShareKit10MonkeyKingC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "10WZShareKit10NetworkingC"
+- !private "10WZShareKit10NetworkingC17ParameterEncodingO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "10WZShareKit10MonkeyKingC5ErrorO9SDKReasonO"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- "10WZShareKit24SupportedPlatformCapableP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- "So13UIApplicationC"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- !private "10Foundation3URLV"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation12URLQueryItemV"
+- !private "So20WKNavigationDelegateP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/Pods/Target Support Files/WZShareKit/WZShareKit-umbrella.h"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/build/Pods.build/Debug-iphoneos/WZShareKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8dc663c247d67a9c780f1ddce078d3a7"

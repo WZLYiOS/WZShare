@@ -1,0 +1,11 @@
+framework module WZShareKit {
+  umbrella header "WZShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZShareKit.Swift {
+    header "WZShareKit-Swift.h"
+    requires objc
+}

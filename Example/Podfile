@@ -1,0 +1,7 @@
+source 'https://gitlab.com/WZiOS/WZiOSPodSpecs.git'
+
+use_frameworks!
+
+target 'WZShare_Example' do
+  pod 'WZShareKit', :path => '../'
+end

@@ -1,0 +1,163 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "10WZShareKit10MonkeyKingC5OrderO"
+provides-member:
+- ["10WZShareKit10MonkeyKingC", ""]
+- ["10WZShareKit10MonkeyKingC5OrderO", ""]
+- ["10WZShareKit10MonkeyKingC", "Order"]
+- ["10WZShareKit10MonkeyKingC", "deliver"]
+provides-dynamic-lookup:
+- "deliver"
+depends-top-level:
+- "AssignmentPrecedence"
+- "MonkeyKing"
+- "URL"
+depends-member:
+- !private ["s7CVarArgP", "deliverCompletionHandler"]
+- !private ["s7CVarArgP", "oauthCompletionHandler"]
+- !private ["s7CVarArgP", "openSchemeCompletionHandler"]
+- !private ["s7CVarArgP", "openURL"]
+- !private ["s7CVarArgP", "payCompletionHandler"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "deliverCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "oauthCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "openSchemeCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "openURL"]
+- !private ["s28CustomDebugStringConvertibleP", "payCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "deliverCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "oauthCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "openSchemeCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "openURL"]
+- !private ["s23CustomStringConvertibleP", "payCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["SQ", "deliverCompletionHandler"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "isAppInstalled"]
+- !private ["SQ", "oauthCompletionHandler"]
+- !private ["SQ", "openSchemeCompletionHandler"]
+- !private ["SQ", "openURL"]
+- !private ["SQ", "payCompletionHandler"]
+- !private ["SQ", "shared"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "deinit"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "noApp"]
+- !private ["s5ErrorP", "noApp"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO", "sdk"]
+- !private ["s5ErrorP", "sdk"]
+- !private ["SH", "deliverCompletionHandler"]
+- !private ["SH", "failure"]
+- !private ["SH", "isAppInstalled"]
+- !private ["SH", "oauthCompletionHandler"]
+- !private ["SH", "openSchemeCompletionHandler"]
+- !private ["SH", "openURL"]
+- !private ["SH", "payCompletionHandler"]
+- !private ["SH", "shared"]
+- ["10WZShareKit10MonkeyKingC", "Order"]
+- ["10WZShareKit10MonkeyKingC", "PayCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "URL"]
+- ["10WZShareKit10MonkeyKingC", "deliver"]
+- !private ["10WZShareKit10MonkeyKingC", "deliverCompletionHandler"]
+- !private ["10WZShareKit10MonkeyKingC", "oauthCompletionHandler"]
+- !private ["10WZShareKit10MonkeyKingC", "openSchemeCompletionHandler"]
+- !private ["10WZShareKit10MonkeyKingC", "openURL"]
+- !private ["10WZShareKit10MonkeyKingC", "payCompletionHandler"]
+- !private ["10WZShareKit10MonkeyKingC", "shared"]
+- ["So8NSObjectC", "Order"]
+- ["So8NSObjectC", "PayCompletionHandler"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "deliver"]
+- !private ["So8NSObjectC", "deliverCompletionHandler"]
+- !private ["So8NSObjectC", "oauthCompletionHandler"]
+- !private ["So8NSObjectC", "openSchemeCompletionHandler"]
+- !private ["So8NSObjectC", "openURL"]
+- !private ["So8NSObjectC", "payCompletionHandler"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "deliverCompletionHandler"]
+- !private ["So8NSObjectP", "oauthCompletionHandler"]
+- !private ["So8NSObjectP", "openSchemeCompletionHandler"]
+- !private ["So8NSObjectP", "openURL"]
+- !private ["So8NSObjectP", "payCompletionHandler"]
+- !private ["So8NSObjectP", "shared"]
+- ["10WZShareKit10MonkeyKingC5OrderO", "URL"]
+- ["10WZShareKit10MonkeyKingC5OrderO", "alipay"]
+- !private ["10WZShareKit10MonkeyKingC5OrderO", "deinit"]
+- !private ["10WZShareKit10MonkeyKingC5OrderO", "platform"]
+- ["10WZShareKit10MonkeyKingC5OrderO", "weChat"]
+- !private ["s6ResultO", "failure"]
+- !private ["10WZShareKit10MonkeyKingC5ErrorO9SDKReasonO", "invalidURLScheme"]
+- !private ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "isAppInstalled"]
+- ["10WZShareKit24SupportedPlatformCapableP", "alipay"]
+- !private ["10WZShareKit24SupportedPlatformCapableP", "platform"]
+- ["10WZShareKit24SupportedPlatformCapableP", "weChat"]
+- !private ["So20WKNavigationDelegateP", "deliverCompletionHandler"]
+- !private ["So20WKNavigationDelegateP", "oauthCompletionHandler"]
+- !private ["So20WKNavigationDelegateP", "openSchemeCompletionHandler"]
+- !private ["So20WKNavigationDelegateP", "openURL"]
+- !private ["So20WKNavigationDelegateP", "payCompletionHandler"]
+- !private ["So20WKNavigationDelegateP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deliverCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oauthCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openSchemeCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "payCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deliverCompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "oauthCompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openSchemeCompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "payCompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "10WZShareKit10MonkeyKingC5ErrorO"
+- !private "s5ErrorP"
+- !private "10WZShareKit10MonkeyKingC5ErrorO"
+- !private "s5ErrorP"
+- !private "SH"
+- "10WZShareKit10MonkeyKingC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "10WZShareKit10MonkeyKingC5OrderO"
+- !private "s6ResultO"
+- !private "10WZShareKit10MonkeyKingC5ErrorO9SDKReasonO"
+- !private "10WZShareKit10MonkeyKingC17SupportedPlatformO"
+- "10WZShareKit24SupportedPlatformCapableP"
+- !private "So20WKNavigationDelegateP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/Pods/Target Support Files/WZShareKit/WZShareKit-umbrella.h"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/build/Pods.build/Debug-iphoneos/WZShareKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "aaeaa8ed8a7a2e65f4553290692e3f4f"

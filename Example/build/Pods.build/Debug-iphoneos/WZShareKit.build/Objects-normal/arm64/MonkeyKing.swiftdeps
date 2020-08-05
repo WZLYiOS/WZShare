@@ -1,0 +1,388 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MonkeyKing"
+- "=="
+provides-nominal:
+- "10WZShareKit10MonkeyKingC"
+- "10WZShareKit10MonkeyKingC7AccountO"
+- "10WZShareKit10MonkeyKingC17SupportedPlatformO"
+provides-member:
+- ["10WZShareKit10MonkeyKingC", ""]
+- ["10WZShareKit10MonkeyKingC7AccountO", ""]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", ""]
+provides-dynamic-lookup:
+- "accountSet"
+- "deliverCompletionHandler"
+- "launchCompletionHandler"
+- "launchFromWeChatMiniAppCompletionHandler"
+- "oauthCompletionHandler"
+- "oauthFromWeChatCodeCompletionHandler"
+- "openSchemeCompletionHandler"
+- "payCompletionHandler"
+- "registerAccount"
+- "registerLaunchFromWeChatMiniAppHandler"
+- "shared"
+- "webView"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Hasher"
+- !private "IntegerLiteralType"
+- "MonkeyKing"
+- "NSObject"
+- "Result"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- "Void"
+- "WKWebView"
+- !private "||"
+depends-member:
+- ["10WZShareKit10MonkeyKingC7AccountO", "=="]
+- ["10WZShareKit10MonkeyKingC7AccountO", "Bool"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "Hasher"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "MonkeyKing"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "String"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "_rawHashValue"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "alipay"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "appID"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "deinit"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "hash"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "hashValue"]
+- !private ["10WZShareKit10MonkeyKingC7AccountO", "platform"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "pocket"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "qq"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "twitter"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "weChat"]
+- ["10WZShareKit10MonkeyKingC7AccountO", "weibo"]
+- ["s7CVarArgP", "Account"]
+- ["s7CVarArgP", "MonkeyKing"]
+- ["s7CVarArgP", "Set"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accountSet"]
+- !private ["s7CVarArgP", "canOpenURL"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "shared"]
+- ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "remove"]
+- ["s28CustomDebugStringConvertibleP", "Account"]
+- ["s28CustomDebugStringConvertibleP", "MonkeyKing"]
+- ["s28CustomDebugStringConvertibleP", "Set"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accountSet"]
+- !private ["s28CustomDebugStringConvertibleP", "canOpenURL"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "remove"]
+- ["s23CustomStringConvertibleP", "Account"]
+- ["s23CustomStringConvertibleP", "MonkeyKing"]
+- ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accountSet"]
+- !private ["s23CustomStringConvertibleP", "canOpenURL"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "remove"]
+- ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "remove"]
+- ["SQ", "=="]
+- ["SQ", "Account"]
+- ["SQ", "MonkeyKing"]
+- ["SQ", "Set"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "accountSet"]
+- ["SQ", "alipay"]
+- !private ["SQ", "appID"]
+- !private ["SQ", "canOpenURL"]
+- !private ["SQ", "canWebOAuth"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "isAppInstalled"]
+- !private ["SQ", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["SQ", "platform"]
+- ["SQ", "pocket"]
+- ["SQ", "qq"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "shared"]
+- ["SQ", "twitter"]
+- ["SQ", "weChat"]
+- ["SQ", "weibo"]
+- ["10WZShareKit10MonkeyKingC5ErrorO", "deinit"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["SH", "=="]
+- ["SH", "Account"]
+- ["SH", "MonkeyKing"]
+- ["SH", "Set"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "accountSet"]
+- ["SH", "alipay"]
+- !private ["SH", "appID"]
+- !private ["SH", "canOpenURL"]
+- !private ["SH", "canWebOAuth"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "isAppInstalled"]
+- !private ["SH", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["SH", "platform"]
+- ["SH", "pocket"]
+- ["SH", "qq"]
+- !private ["SH", "remove"]
+- !private ["SH", "shared"]
+- ["SH", "twitter"]
+- ["SH", "weChat"]
+- ["SH", "weibo"]
+- !private ["s6HasherV", "combine"]
+- ["10WZShareKit10MonkeyKingC", "Account"]
+- ["10WZShareKit10MonkeyKingC", "Bool"]
+- ["10WZShareKit10MonkeyKingC", "DeliverCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "Error"]
+- ["10WZShareKit10MonkeyKingC", "Hashable"]
+- ["10WZShareKit10MonkeyKingC", "Hasher"]
+- ["10WZShareKit10MonkeyKingC", "LaunchCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "LaunchFromWeChatMiniAppCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "MonkeyKing"]
+- ["10WZShareKit10MonkeyKingC", "OAuthCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "OAuthFromWeChatCodeCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "OpenSchemeCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "PayCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "ResponseJSON"]
+- ["10WZShareKit10MonkeyKingC", "Result"]
+- ["10WZShareKit10MonkeyKingC", "Set"]
+- ["10WZShareKit10MonkeyKingC", "String"]
+- ["10WZShareKit10MonkeyKingC", "SupportedPlatform"]
+- ["10WZShareKit10MonkeyKingC", "URL"]
+- ["10WZShareKit10MonkeyKingC", "Void"]
+- ["10WZShareKit10MonkeyKingC", "WKWebView"]
+- ["10WZShareKit10MonkeyKingC", "accountSet"]
+- !private ["10WZShareKit10MonkeyKingC", "canOpenURL"]
+- ["10WZShareKit10MonkeyKingC", "deinit"]
+- ["10WZShareKit10MonkeyKingC", "deliverCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "init"]
+- ["10WZShareKit10MonkeyKingC", "launchCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "launchFromWeChatMiniAppCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "oauthCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "oauthFromWeChatCodeCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "openSchemeCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "payCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "registerAccount"]
+- ["10WZShareKit10MonkeyKingC", "registerLaunchFromWeChatMiniAppHandler"]
+- ["10WZShareKit10MonkeyKingC", "shared"]
+- ["10WZShareKit10MonkeyKingC", "webView"]
+- ["So8NSObjectC", "Account"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DeliverCompletionHandler"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Hashable"]
+- ["So8NSObjectC", "Hasher"]
+- ["So8NSObjectC", "LaunchCompletionHandler"]
+- ["So8NSObjectC", "LaunchFromWeChatMiniAppCompletionHandler"]
+- ["So8NSObjectC", "MonkeyKing"]
+- ["So8NSObjectC", "OAuthCompletionHandler"]
+- ["So8NSObjectC", "OAuthFromWeChatCodeCompletionHandler"]
+- ["So8NSObjectC", "OpenSchemeCompletionHandler"]
+- ["So8NSObjectC", "PayCompletionHandler"]
+- ["So8NSObjectC", "ResponseJSON"]
+- ["So8NSObjectC", "Result"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "WKWebView"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "accountSet"]
+- !private ["So8NSObjectC", "canOpenURL"]
+- ["So8NSObjectC", "deliverCompletionHandler"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "launchCompletionHandler"]
+- ["So8NSObjectC", "launchFromWeChatMiniAppCompletionHandler"]
+- ["So8NSObjectC", "oauthCompletionHandler"]
+- ["So8NSObjectC", "oauthFromWeChatCodeCompletionHandler"]
+- ["So8NSObjectC", "openSchemeCompletionHandler"]
+- ["So8NSObjectC", "payCompletionHandler"]
+- ["So8NSObjectC", "registerAccount"]
+- ["So8NSObjectC", "registerLaunchFromWeChatMiniAppHandler"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectP", "Account"]
+- ["So8NSObjectP", "MonkeyKing"]
+- ["So8NSObjectP", "Set"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accountSet"]
+- !private ["So8NSObjectP", "canOpenURL"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "remove"]
+- ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["Sh", "remove"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "=="]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "Bool"]
+- !private ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "URL"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "__derived_enum_equals"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "_rawHashValue"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "alipay"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "canWebOAuth"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "deinit"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "hash"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "hashValue"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "isAppInstalled"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "pocket"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "qq"]
+- !private ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "shared"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "twitter"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "weChat"]
+- ["10WZShareKit10MonkeyKingC17SupportedPlatformO", "weibo"]
+- ["10WZShareKit24SupportedPlatformCapableP", "=="]
+- ["10WZShareKit24SupportedPlatformCapableP", "_rawHashValue"]
+- ["10WZShareKit24SupportedPlatformCapableP", "alipay"]
+- !private ["10WZShareKit24SupportedPlatformCapableP", "appID"]
+- ["10WZShareKit24SupportedPlatformCapableP", "hash"]
+- ["10WZShareKit24SupportedPlatformCapableP", "hashValue"]
+- !private ["10WZShareKit24SupportedPlatformCapableP", "platform"]
+- ["10WZShareKit24SupportedPlatformCapableP", "pocket"]
+- ["10WZShareKit24SupportedPlatformCapableP", "qq"]
+- ["10WZShareKit24SupportedPlatformCapableP", "twitter"]
+- ["10WZShareKit24SupportedPlatformCapableP", "weChat"]
+- ["10WZShareKit24SupportedPlatformCapableP", "weibo"]
+- !private ["10Foundation3URLV", "init"]
+- ["So20WKNavigationDelegateP", "Account"]
+- ["So20WKNavigationDelegateP", "MonkeyKing"]
+- ["So20WKNavigationDelegateP", "Set"]
+- !private ["So20WKNavigationDelegateP", "URL"]
+- !private ["So20WKNavigationDelegateP", "accountSet"]
+- !private ["So20WKNavigationDelegateP", "canOpenURL"]
+- ["So20WKNavigationDelegateP", "init"]
+- !private ["So20WKNavigationDelegateP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["So20WKNavigationDelegateP", "shared"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Account"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MonkeyKing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accountSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canOpenURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Account"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MonkeyKing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accountSet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "canOpenURL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "launchFromWeChatMiniAppCompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+depends-nominal:
+- "10WZShareKit10MonkeyKingC7AccountO"
+- "s7CVarArgP"
+- "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "10WZShareKit10MonkeyKingC5ErrorO"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "10WZShareKit10MonkeyKingC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- "10WZShareKit10MonkeyKingC17SupportedPlatformO"
+- "10WZShareKit24SupportedPlatformCapableP"
+- !private "10Foundation3URLV"
+- "So20WKNavigationDelegateP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/Pods/Target Support Files/WZShareKit/WZShareKit-umbrella.h"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/build/Pods.build/Debug-iphoneos/WZShareKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ecb875c7125af3f0eb336e4fc063184c"

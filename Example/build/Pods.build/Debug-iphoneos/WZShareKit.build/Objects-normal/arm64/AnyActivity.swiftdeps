@@ -1,0 +1,266 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyActivity"
+provides-nominal:
+- "10WZShareKit11AnyActivityC"
+provides-member:
+- ["10WZShareKit11AnyActivityC", ""]
+provides-dynamic-lookup:
+- "activityCategory"
+- "activityImage"
+- "activityTitle"
+- "activityType"
+- "canPerform"
+- "completionHandler"
+- "image"
+- "message"
+- "perform"
+- "title"
+- "type"
+depends-top-level:
+- "AnyActivity"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "MonkeyKing"
+- "String"
+- "UIActivity"
+- "UIImage"
+depends-member:
+- ["10WZShareKit11AnyActivityC", "Bool"]
+- ["10WZShareKit11AnyActivityC", "MonkeyKing"]
+- ["10WZShareKit11AnyActivityC", "String"]
+- ["10WZShareKit11AnyActivityC", "UIActivity"]
+- ["10WZShareKit11AnyActivityC", "UIImage"]
+- ["10WZShareKit11AnyActivityC", "activityCategory"]
+- !private ["10WZShareKit11AnyActivityC", "activityDidFinish"]
+- ["10WZShareKit11AnyActivityC", "activityImage"]
+- ["10WZShareKit11AnyActivityC", "activityTitle"]
+- ["10WZShareKit11AnyActivityC", "activityType"]
+- ["10WZShareKit11AnyActivityC", "canPerform"]
+- !private ["10WZShareKit11AnyActivityC", "completionHandler"]
+- ["10WZShareKit11AnyActivityC", "deinit"]
+- !private ["10WZShareKit11AnyActivityC", "image"]
+- ["10WZShareKit11AnyActivityC", "init"]
+- !private ["10WZShareKit11AnyActivityC", "message"]
+- ["10WZShareKit11AnyActivityC", "perform"]
+- !private ["10WZShareKit11AnyActivityC", "title"]
+- !private ["10WZShareKit11AnyActivityC", "type"]
+- ["s7CVarArgP", "ActivityType"]
+- ["s7CVarArgP", "Category"]
+- ["s7CVarArgP", "DeliverCompletionHandler"]
+- ["s7CVarArgP", "Message"]
+- !private ["s7CVarArgP", "MonkeyKing"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activityDidFinish"]
+- !private ["s7CVarArgP", "completionHandler"]
+- !private ["s7CVarArgP", "deliver"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "message"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "type"]
+- !private ["So18UIActivityCategoryV", "share"]
+- ["s28CustomDebugStringConvertibleP", "ActivityType"]
+- ["s28CustomDebugStringConvertibleP", "Category"]
+- ["s28CustomDebugStringConvertibleP", "DeliverCompletionHandler"]
+- ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "MonkeyKing"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activityDidFinish"]
+- !private ["s28CustomDebugStringConvertibleP", "completionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "deliver"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "message"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s23CustomStringConvertibleP", "ActivityType"]
+- ["s23CustomStringConvertibleP", "Category"]
+- ["s23CustomStringConvertibleP", "DeliverCompletionHandler"]
+- ["s23CustomStringConvertibleP", "Message"]
+- !private ["s23CustomStringConvertibleP", "MonkeyKing"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activityDidFinish"]
+- !private ["s23CustomStringConvertibleP", "completionHandler"]
+- !private ["s23CustomStringConvertibleP", "deliver"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "message"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- ["SQ", "ActivityType"]
+- ["SQ", "Category"]
+- ["SQ", "DeliverCompletionHandler"]
+- ["SQ", "Message"]
+- !private ["SQ", "MonkeyKing"]
+- ["SQ", ""]
+- !private ["SQ", "activityDidFinish"]
+- !private ["SQ", "completionHandler"]
+- !private ["SQ", "deliver"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "message"]
+- !private ["SQ", "share"]
+- !private ["SQ", "title"]
+- !private ["SQ", "type"]
+- ["SH", "ActivityType"]
+- ["SH", "Category"]
+- ["SH", "DeliverCompletionHandler"]
+- ["SH", "Message"]
+- !private ["SH", "MonkeyKing"]
+- ["SH", ""]
+- !private ["SH", "activityDidFinish"]
+- !private ["SH", "completionHandler"]
+- !private ["SH", "deliver"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "message"]
+- !private ["SH", "share"]
+- !private ["SH", "title"]
+- !private ["SH", "type"]
+- !private ["10WZShareKit10MonkeyKingC7MessageO", "canBeDelivered"]
+- ["10WZShareKit10MonkeyKingC", "DeliverCompletionHandler"]
+- ["10WZShareKit10MonkeyKingC", "Message"]
+- !private ["10WZShareKit10MonkeyKingC", "deliver"]
+- ["So8NSObjectC", "ActivityType"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", "DeliverCompletionHandler"]
+- ["So8NSObjectC", "Message"]
+- ["So8NSObjectC", "MonkeyKing"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIActivity"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "activityCategory"]
+- !private ["So8NSObjectC", "activityDidFinish"]
+- ["So8NSObjectC", "activityImage"]
+- ["So8NSObjectC", "activityTitle"]
+- ["So8NSObjectC", "activityType"]
+- ["So8NSObjectC", "canPerform"]
+- ["So8NSObjectC", "completionHandler"]
+- !private ["So8NSObjectC", "deliver"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "message"]
+- ["So8NSObjectC", "perform"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "type"]
+- ["So8NSObjectP", "ActivityType"]
+- ["So8NSObjectP", "Category"]
+- ["So8NSObjectP", "DeliverCompletionHandler"]
+- ["So8NSObjectP", "Message"]
+- !private ["So8NSObjectP", "MonkeyKing"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activityDidFinish"]
+- !private ["So8NSObjectP", "completionHandler"]
+- !private ["So8NSObjectP", "deliver"]
+- !private ["So8NSObjectP", "image"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "message"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "type"]
+- !private ["SY", "share"]
+- !private ["10WZShareKit24SupportedPlatformCapableP", "canBeDelivered"]
+- ["So10UIActivityC", "ActivityType"]
+- ["So10UIActivityC", "Bool"]
+- ["So10UIActivityC", "Category"]
+- ["So10UIActivityC", "MonkeyKing"]
+- ["So10UIActivityC", "String"]
+- ["So10UIActivityC", "UIActivity"]
+- ["So10UIActivityC", "UIImage"]
+- ["So10UIActivityC", ""]
+- ["So10UIActivityC", "activityCategory"]
+- !private ["So10UIActivityC", "activityDidFinish"]
+- ["So10UIActivityC", "activityImage"]
+- ["So10UIActivityC", "activityTitle"]
+- ["So10UIActivityC", "activityType"]
+- ["So10UIActivityC", "canPerform"]
+- ["So10UIActivityC", "completionHandler"]
+- ["So10UIActivityC", "image"]
+- ["So10UIActivityC", "init"]
+- ["So10UIActivityC", "message"]
+- ["So10UIActivityC", "perform"]
+- ["So10UIActivityC", "title"]
+- ["So10UIActivityC", "type"]
+- ["So20WKNavigationDelegateP", "DeliverCompletionHandler"]
+- ["So20WKNavigationDelegateP", "Message"]
+- !private ["So20WKNavigationDelegateP", "deliver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ActivityType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Category"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DeliverCompletionHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MonkeyKing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activityDidFinish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deliver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ActivityType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Category"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DeliverCompletionHandler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Message"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MonkeyKing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activityDidFinish"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "completionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "deliver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "message"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
+depends-nominal:
+- "10WZShareKit11AnyActivityC"
+- "s7CVarArgP"
+- !private "So18UIActivityCategoryV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "10WZShareKit10MonkeyKingC7MessageO"
+- "10WZShareKit10MonkeyKingC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "10WZShareKit24SupportedPlatformCapableP"
+- "So10UIActivityC"
+- "So20WKNavigationDelegateP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/Pods/Target Support Files/WZShareKit/WZShareKit-umbrella.h"
+- "/Users/xiaobinliu/Desktop/WZiOS/WZShare/Example/build/Pods.build/Debug-iphoneos/WZShareKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b5f04c3bf68e9ccdd79f22edd0f88ed7"

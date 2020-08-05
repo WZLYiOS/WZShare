@@ -1,0 +1,6 @@
+framework module WZShareKit {
+  umbrella header "WZShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
