@@ -1,11 +1,3 @@
-//
-//  MonkeyKing.swift
-//  WZShare
-//
-//  Created by LiuSky on 12/12/2019.
-//  Copyright (c) 2019 LiuSky. All rights reserved.
-//
-
 
 import UIKit
 import WebKit
@@ -39,8 +31,8 @@ public class MonkeyKing: NSObject {
     private override init() {}
 
     public enum Account: Hashable {
-        case weChat(appID: String, appKey: String?, miniAppID: String?)
-        case qq(appID: String)
+        case weChat(appID: String, appKey: String?, miniAppID: String?, universalLink: String?)
+        case qq(appID: String, universalLink: String?)
         case weibo(appID: String, appKey: String, redirectURL: String)
         case pocket(appID: String)
         case alipay(appID: String)
@@ -48,9 +40,9 @@ public class MonkeyKing: NSObject {
 
         public var appID: String {
             switch self {
-            case .weChat(let appID, _, _):
+            case .weChat(let appID, _, _, _):
                 return appID
-            case .qq(let appID):
+            case .qq(let appID, _):
                 return appID
             case .weibo(let appID, _, _):
                 return appID
@@ -63,14 +55,23 @@ public class MonkeyKing: NSObject {
             }
         }
 
+        public var universalLink: String? {
+            switch self {
+            case .weChat(_, _, _, let universalLink), .qq(_, let universalLink):
+                return universalLink
+            default:
+                return nil
+            }
+        }
+
         public func hash(into hasher: inout Hasher) {
             hasher.combine(appID)
         }
 
         public static func == (lhs: MonkeyKing.Account, rhs: MonkeyKing.Account) -> Bool {
             switch (lhs, rhs) {
-            case (.weChat(let lappID, _, _), .weChat(let rappID, _, _)),
-                 (.qq(let lappID), .qq(let rappID)),
+            case (.weChat(let lappID, _, _, _), .weChat(let rappID, _, _, _)),
+                 (.qq(let lappID, _), .qq(let rappID, _)),
                  (.weibo(let lappID, _, _), .weibo(let rappID, _, _)),
                  (.pocket(let lappID), .pocket(let rappID)),
                  (.alipay(let lappID), .alipay(let rappID)),

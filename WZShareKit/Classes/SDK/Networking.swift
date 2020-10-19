@@ -1,11 +1,3 @@
-//
-//  Networking.swift
-//  WZShare
-//
-//  Created by LiuSky on 12/12/2019.
-//  Copyright (c) 2019 LiuSky. All rights reserved.
-//
-
 
 import UIKit
 
@@ -518,4 +510,3 @@ extension Data {
         }
     }
 }
-

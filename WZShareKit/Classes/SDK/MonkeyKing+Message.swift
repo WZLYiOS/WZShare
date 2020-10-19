@@ -1,11 +1,5 @@
-//
-//  MonkeyKing+Message.swift
-//  Pods-WZShare_Example
-//
-//  Created by xiaobin liu on 2020/4/20.
-//
 
-import Foundation
+import UIKit
 
 extension MonkeyKing {
 
@@ -203,10 +197,7 @@ extension MonkeyKing {
         switch message {
         case .weChat(let type):
             var weChatMessageInfo: [String: Any] = [
-                "result": "1",
-                "returnFromApp": "0",
                 "scene": type.scene,
-                "sdkver": "1.5",
                 "command": "1010",
             ]
             let info = type.info
@@ -245,7 +236,7 @@ extension MonkeyKing {
                     weChatMessageInfo["objectType"] = "4"
                     weChatMessageInfo["mediaUrl"] = url.absoluteString
                 case .miniApp(let url, let path, let withShareTicket, let type):
-                    if case .weChat(_, _, let miniProgramID) = account {
+                    if case .weChat(_, _, let miniProgramID, let universalLink) = account {
                         weChatMessageInfo["objectType"] = "36"
                         if let hdThumbnailImage = info.thumbnail {
                             weChatMessageInfo["hdThumbData"] = hdThumbnailImage.monkeyking_resetSizeOfImageData(maxSize: 127 * 1024)
@@ -254,6 +245,7 @@ extension MonkeyKing {
                         weChatMessageInfo["appBrandPath"] = path
                         weChatMessageInfo["withShareTicket"] = withShareTicket
                         weChatMessageInfo["miniprogramType"] = type.rawValue
+                        weChatMessageInfo["universalLink"] = universalLink
                         if let miniProgramID = miniProgramID {
                             weChatMessageInfo["appBrandUserName"] = miniProgramID
                         } else {
@@ -273,17 +265,33 @@ extension MonkeyKing {
             } else { // Text Share
                 weChatMessageInfo["command"] = "1020"
             }
-            var weChatMessage: [String: Any] = [appID: weChatMessageInfo]
-            if let oldText = UIPasteboard.general.oldText {
-                weChatMessage["old_text"] = oldText
+
+            let wxUrlStr: String
+
+            var wxUrlOptions = [UIApplication.OpenExternalURLOptionsKey : Any]()
+
+            if
+                let commandUniversalLink = shared.wechatUniversalLink(of: "sendreq"), #available(iOS 10.0, *),
+                let universalLink = MonkeyKing.shared.accountSet[.weChat]?.universalLink
+            {
+                wxUrlStr = commandUniversalLink
+                weChatMessageInfo["universalLink"] = universalLink
+                weChatMessageInfo["isAutoResend"] = false
+                wxUrlOptions[.universalLinksOnly] = true
+            } else {
+                wxUrlStr = "weixin://app/\(appID)/sendreq/?"
             }
-            guard let data = try? PropertyListSerialization.data(fromPropertyList: weChatMessage, format: .binary, options: .init()) else { return }
-            UIPasteboard.general.setData(data, forPasteboardType: "content")
-            guard let url = URL(string: "weixin://app/\(appID)/sendreq/?") else {
+
+            shared.setPasteboard(of: appID, with: weChatMessageInfo)
+
+            guard let url = URL(string: wxUrlStr) else {
                 completionHandler(.failure(.sdk(.urlEncodeFailed)))
                 return
             }
-            shared.openURL(url) { flag in
+
+            lastMessage = message
+
+            shared.openURL(url, options: wxUrlOptions) { flag in
                 if flag { return }
                 completionHandler(.failure(.sdk(.invalidURLScheme)))
             }
@@ -328,6 +336,8 @@ extension MonkeyKing {
                     if let thumbnail = type.info.thumbnail, let thumbnailData = thumbnail.jpegData(compressionQuality: 0.9) {
                         dic["previewimagedata"] = thumbnailData
                     }
+                    // TODO: handle previewimageUrl string aswell
+
                     if let oldText = UIPasteboard.general.oldText {
                         dic["pasted_string"] = oldText
                     }
@@ -369,7 +379,7 @@ extension MonkeyKing {
                 if let encodedDescription = type.info.description?.monkeyking_base64AndURLEncodedString {
                     qqSchemeURLString += "&objectlocation=pasteboard&description=\(encodedDescription)"
                 }
-                qqSchemeURLString += "&sdkv=2.9"
+                qqSchemeURLString += "&sdkv=3.3.9_lite"
 
             } else { // Share Text
                 // fix #75
@@ -384,10 +394,29 @@ extension MonkeyKing {
                 }
             }
 
-            guard let url = URL(string: qqSchemeURLString) else {
+            guard var comps = URLComponents(string: qqSchemeURLString) else {
+                return
+            }
+
+            if account.universalLink != nil {
+                comps.scheme = "https"
+                comps.host = "qm.qq.com"
+                comps.path = "/opensdkul/mqqapi/share/to_fri"
+
+                if let token = qqAppSignToken {
+                    comps.queryItems?.append(.init(name: "appsign_token", value: token))
+                }
+                if let txid = qqAppSignTxid {
+                    comps.queryItems?.append(.init(name: "appsign_txid", value: txid))
+                }
+            }
+
+            guard let url = comps.url else {
                 completionHandler(.failure(.sdk(.urlEncodeFailed)))
                 return
             }
+
+            lastMessage = message
 
             shared.openURL(url) { flag in
                 if flag { return }
@@ -657,4 +686,3 @@ extension MonkeyKing {
         }
     }
 }
-

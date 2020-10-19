@@ -1,9 +1,3 @@
-//
-//  MonkeyKing+OpenURL.swift
-//  Pods-WZShare_Example
-//
-//  Created by xiaobin liu on 2020/4/20.
-//
 
 import Foundation
 
@@ -39,4 +33,3 @@ extension MonkeyKing {
         }
     }
 }
-

@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		019D5E701D2ADC83D158B783423959F5 /* MonkeyKing+handleOpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082C024BEF2091F6250E98A072D2ABAD /* MonkeyKing+handleOpenURL.swift */; };
-		0805D9047F6CED92C0939FFC4D83993D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2958576DAE8983673109513EDF9600F2 /* MonkeyKing+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7FBD43C5C3F19BB080E76671883513 /* MonkeyKing+WebView.swift */; };
-		317D28195E38F1C7E3D5F9604500C0FA /* MonkeyKing+Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590722FF6796CF462B7F7088FE5BFAD /* MonkeyKing+Pay.swift */; };
-		4C02190E5F6CABCBA23574BB799CFD20 /* MonkeyKing+Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDDD3E5CCC954490069863556E121B9 /* MonkeyKing+Program.swift */; };
-		5FC45EE9E7AF56C988F4B6AB13A555A4 /* MonkeyKing+OpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E57CAB5250CD11CD08719E4852304D /* MonkeyKing+OpenURL.swift */; };
-		6679E385C8F8BFED25126046FD1251B1 /* WZShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1CFCFD6ECF48F20AF0D309E8D79F0B /* WZShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70B36207E04C2292983D11D75F1DACBE /* MonkeyKing+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A3407C8B7C698F772E66859C16643 /* MonkeyKing+Error.swift */; };
-		75B2EAC7C5E280F9329F9ECB70A5E522 /* MonkeyKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5985F45382989C71E76386F60F75C967 /* MonkeyKing.swift */; };
+		046CC40D7D17863C021993ED91354EE4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA469DC39E832F153C9D027D8DEF2C /* Helpers.swift */; };
+		0AE140E56EEA7267CF1DDB8C4738855C /* WZShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C5931382F139AF69F682B4F7281D75 /* WZShareKit-dummy.m */; };
+		0FF1AC9BAD0BF1A28E8320EEFA93389C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2490A1AAE05FF2635E6F1F153F25A85D /* MonkeyKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252DDBE5835A7DE30F878100F00C544 /* MonkeyKing.swift */; };
+		381CFB66F419DAB8868A5FD236B0E660 /* MonkeyKing+OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89C0A390AA7A324DAAD62EFB6AF782D /* MonkeyKing+OAuth.swift */; };
+		40D8BC51BCE7164EFD9C459ED1C22969 /* AnyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5883E1FF8F3C2482E6388195C5002595 /* AnyActivity.swift */; };
+		4280B152D09A519BE500ED937B9B38F0 /* MonkeyKing+handleOpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF62E0ED982D9541397592C13295FD /* MonkeyKing+handleOpenURL.swift */; };
+		42E6A5F3B8E31ED697038DDD1D4C0360 /* MonkeyKing+SupportedPlatformCapable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC7FD0ACE40259A809C60737AF13CF /* MonkeyKing+SupportedPlatformCapable.swift */; };
+		78C5B89FAB1CE1F067340DF31BF89DBB /* MonkeyKing+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B67648D6D00FFE35CE0F328E3780AC9 /* MonkeyKing+Error.swift */; };
+		7D8043520AD8FD6F1BCC53D829F0E07D /* MonkeyKing+WeChatUniversalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F932D47697E2248842D0DDDAA969A03 /* MonkeyKing+WeChatUniversalLink.swift */; };
+		8B5CDAFA49A2F5E55BB35842BF579518 /* MonkeyKing+Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA769DB155C9884D26D84C0CD3E2F1C /* MonkeyKing+Program.swift */; };
+		915270AE0AE48EF38C380D79EE59FFF6 /* MonkeyKing+OpenURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6876E3AC3698C642627596B25364AD /* MonkeyKing+OpenURL.swift */; };
+		96D08D40AD702963B44963381E410FA7 /* MonkeyKing+Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBADC72FC9BE1C697704AEE9D5ECEF9 /* MonkeyKing+Pay.swift */; };
 		9B610FD3CF5FFBCD25B339738979B7C0 /* Pods-WZShare_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E659A2E6F140F42B8E69E81FFB5024 /* Pods-WZShare_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A207AEB81527BBF7F35502DEE834A7C0 /* MonkeyKing+OAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B413A9857D2ED72D68437E6F72F42D /* MonkeyKing+OAuth.swift */; };
-		ADEE672DB6A93512BF3A83ABF93CC7A3 /* MonkeyKing+SupportedPlatformCapable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C255567CDDD9992EE8D5DA37B42B11 /* MonkeyKing+SupportedPlatformCapable.swift */; };
-		B8C88CA48E6A231BDC420ED4E42B5A07 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC5DC898FB17AEFA0B05A6FA95ECFD /* Extensions.swift */; };
+		9E8E32789142922347252542FD43A5B2 /* WZShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC95484CAC93D646DBF4A6D17024E02F /* WZShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6550C64140EADA92CA33C639887D0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D3ABC004D3B945EBBE65D09844504D0D /* WZShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C9AB6FA20B4CC777E3C18678981076 /* WZShareKit-dummy.m */; };
-		D4DEF69DC6830C4545E3B3C651FD9A2C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB600C0524BB755B19F64946669EA4 /* Networking.swift */; };
-		EA2E44D721FF29B8A66F5EC725410E1B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E4ED29EF667A2815894864793438B /* Helpers.swift */; };
-		EFB7497DE73C2B6F48748401B57562EA /* AnyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C820EB6B4232B703201BEAD4241326F9 /* AnyActivity.swift */; };
-		F50CB3121A4CC04F865FD6B6E7E9D57D /* MonkeyKing+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B2664C3640F6CDB5DC6F55553DEB2 /* MonkeyKing+Message.swift */; };
+		C84CCCD4B88E153382D160A775AF1B20 /* MonkeyKing+Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8807060F260E9923B33C54982703B4 /* MonkeyKing+Message.swift */; };
+		D9CDBE4D026E6054AE0157C3D6B9938A /* MonkeyKing+QQUniversalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D2CE715B114FFA68ED982FE2EAA8ED /* MonkeyKing+QQUniversalLink.swift */; };
+		E74FDA6AB8DC5C7ACD6BF9F98C41DB0D /* MonkeyKing+WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867CB5C312B2F358EE970752B580481 /* MonkeyKing+WebView.swift */; };
+		F1CD111B79B88FC24235C103EC53575E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FDD4DCEF66698C2D35985E53FF350A /* Networking.swift */; };
+		F312F81F9DA5FA701E26C36E30BA0520 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312F5953235A60D2423E160FD771D2C /* Extensions.swift */; };
 		FDE8D2ED547F47212D068F481B953E50 /* Pods-WZShare_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2909DAB009A63D689E78E993D30BBDD /* Pods-WZShare_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,50 +42,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082C024BEF2091F6250E98A072D2ABAD /* MonkeyKing+handleOpenURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+handleOpenURL.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+handleOpenURL.swift"; sourceTree = "<group>"; };
-		1190078E1D58233E40EA1BA926B0BF33 /* WZShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZShareKit-prefix.pch"; sourceTree = "<group>"; };
+		0312F5953235A60D2423E160FD771D2C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = WZShareKit/Classes/SDK/Extensions.swift; sourceTree = "<group>"; };
 		1350B62F94870B2218491B3D073E5D82 /* Pods-WZShare_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZShare_Example.modulemap"; sourceTree = "<group>"; };
-		204ECD63B82266013E65813A14DB4A6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		24DBE2D5FBD7A793AF705ADF9C1052A4 /* WZShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZShareKit.modulemap; sourceTree = "<group>"; };
-		2B13E8727F4706B9B8CFA590CD8B0574 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CA769DB155C9884D26D84C0CD3E2F1C /* MonkeyKing+Program.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Program.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Program.swift"; sourceTree = "<group>"; };
+		27FDD4DCEF66698C2D35985E53FF350A /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = WZShareKit/Classes/SDK/Networking.swift; sourceTree = "<group>"; };
+		2B67648D6D00FFE35CE0F328E3780AC9 /* MonkeyKing+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Error.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Error.swift"; sourceTree = "<group>"; };
+		2CF5F56EAE63D17150B49F5B0B361AEE /* WZShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZShareKit-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34C9AB6FA20B4CC777E3C18678981076 /* WZShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZShareKit-dummy.m"; sourceTree = "<group>"; };
+		32BA469DC39E832F153C9D027D8DEF2C /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = WZShareKit/Classes/SDK/Helpers.swift; sourceTree = "<group>"; };
+		34B7684CC9D11EB25A38556FA9FE05ED /* WZShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZShareKit.modulemap; sourceTree = "<group>"; };
+		379391DABA0193939DAB6475DB68F134 /* WZShareKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZShareKit.release.xcconfig; sourceTree = "<group>"; };
 		3B5104908EC1E5F86708696582246233 /* Pods-WZShare_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZShare_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43C255567CDDD9992EE8D5DA37B42B11 /* MonkeyKing+SupportedPlatformCapable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+SupportedPlatformCapable.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+SupportedPlatformCapable.swift"; sourceTree = "<group>"; };
-		4DEC5DC898FB17AEFA0B05A6FA95ECFD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = WZShareKit/Classes/SDK/Extensions.swift; sourceTree = "<group>"; };
+		3FBADC72FC9BE1C697704AEE9D5ECEF9 /* MonkeyKing+Pay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Pay.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Pay.swift"; sourceTree = "<group>"; };
+		43C5931382F139AF69F682B4F7281D75 /* WZShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZShareKit-dummy.m"; sourceTree = "<group>"; };
 		5578A19A2CBB6EF12944C6BB8B8D0EAA /* Pods_WZShare_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZShare_Example.framework; path = "Pods-WZShare_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5985F45382989C71E76386F60F75C967 /* MonkeyKing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonkeyKing.swift; path = WZShareKit/Classes/SDK/MonkeyKing.swift; sourceTree = "<group>"; };
-		60A814E614C4C2A58D5AFD153DB36426 /* WZShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZShareKit-Info.plist"; sourceTree = "<group>"; };
-		613094671866AB1487079A839EF8EDC3 /* WZShareKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZShareKit.release.xcconfig; sourceTree = "<group>"; };
+		5883E1FF8F3C2482E6388195C5002595 /* AnyActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyActivity.swift; path = WZShareKit/Classes/SDK/AnyActivity.swift; sourceTree = "<group>"; };
 		63065FA88CD1CC2CE5835FD5DEFA9084 /* WZShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZShareKit.framework; path = WZShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		64EB600C0524BB755B19F64946669EA4 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = WZShareKit/Classes/SDK/Networking.swift; sourceTree = "<group>"; };
-		6F1CFCFD6ECF48F20AF0D309E8D79F0B /* WZShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZShareKit-umbrella.h"; sourceTree = "<group>"; };
 		7126AF997A5AA3EFB6077A46C907EF90 /* Pods-WZShare_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZShare_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		780B2664C3640F6CDB5DC6F55553DEB2 /* MonkeyKing+Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Message.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Message.swift"; sourceTree = "<group>"; };
-		82B413A9857D2ED72D68437E6F72F42D /* MonkeyKing+OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+OAuth.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+OAuth.swift"; sourceTree = "<group>"; };
+		71985E1CF0F606A0B8026A76C8E42197 /* WZShareKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZShareKit.debug.xcconfig; sourceTree = "<group>"; };
+		7F932D47697E2248842D0DDDAA969A03 /* MonkeyKing+WeChatUniversalLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+WeChatUniversalLink.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+WeChatUniversalLink.swift"; sourceTree = "<group>"; };
+		80CF62E0ED982D9541397592C13295FD /* MonkeyKing+handleOpenURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+handleOpenURL.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+handleOpenURL.swift"; sourceTree = "<group>"; };
+		8A8807060F260E9923B33C54982703B4 /* MonkeyKing+Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Message.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Message.swift"; sourceTree = "<group>"; };
+		8B7ED51FDEB187B4E50B0F98FB044346 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		94CAA20D869A9D2EF05F4457B7379CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B2682694B9DD44007D4DD68A0AE1FD /* WZShareKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZShareKit.debug.xcconfig; sourceTree = "<group>"; };
-		AECD8E750F9D71D4A939A79C84EB1969 /* WZShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZShareKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A011986E778053AC80052E6DB874BED7 /* WZShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZShareKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A252DDBE5835A7DE30F878100F00C544 /* MonkeyKing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonkeyKing.swift; path = WZShareKit/Classes/SDK/MonkeyKing.swift; sourceTree = "<group>"; };
+		A6B46E14DA7A8DF0047246C0FF5E173C /* WZShareKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZShareKit-Info.plist"; sourceTree = "<group>"; };
+		A89C0A390AA7A324DAAD62EFB6AF782D /* MonkeyKing+OAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+OAuth.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+OAuth.swift"; sourceTree = "<group>"; };
+		AC95484CAC93D646DBF4A6D17024E02F /* WZShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZShareKit-umbrella.h"; sourceTree = "<group>"; };
 		B4E659A2E6F140F42B8E69E81FFB5024 /* Pods-WZShare_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZShare_Example-umbrella.h"; sourceTree = "<group>"; };
-		C820EB6B4232B703201BEAD4241326F9 /* AnyActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyActivity.swift; path = WZShareKit/Classes/SDK/AnyActivity.swift; sourceTree = "<group>"; };
-		CD4E4ED29EF667A2815894864793438B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = WZShareKit/Classes/SDK/Helpers.swift; sourceTree = "<group>"; };
+		B5DC7FD0ACE40259A809C60737AF13CF /* MonkeyKing+SupportedPlatformCapable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+SupportedPlatformCapable.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+SupportedPlatformCapable.swift"; sourceTree = "<group>"; };
 		CD9B16DDEF658396AC3625F4BEB96F41 /* Pods-WZShare_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZShare_Example-Info.plist"; sourceTree = "<group>"; };
 		D2909DAB009A63D689E78E993D30BBDD /* Pods-WZShare_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZShare_Example-dummy.m"; sourceTree = "<group>"; };
 		D65E5346CEAA6E68CEECDF71F5331BFC /* Pods-WZShare_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZShare_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D82A3407C8B7C698F772E66859C16643 /* MonkeyKing+Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Error.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Error.swift"; sourceTree = "<group>"; };
-		DA7FBD43C5C3F19BB080E76671883513 /* MonkeyKing+WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+WebView.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+WebView.swift"; sourceTree = "<group>"; };
-		E1E57CAB5250CD11CD08719E4852304D /* MonkeyKing+OpenURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+OpenURL.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+OpenURL.swift"; sourceTree = "<group>"; };
-		E590722FF6796CF462B7F7088FE5BFAD /* MonkeyKing+Pay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Pay.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Pay.swift"; sourceTree = "<group>"; };
+		D867CB5C312B2F358EE970752B580481 /* MonkeyKing+WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+WebView.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+WebView.swift"; sourceTree = "<group>"; };
+		DD6876E3AC3698C642627596B25364AD /* MonkeyKing+OpenURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+OpenURL.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+OpenURL.swift"; sourceTree = "<group>"; };
+		E7D2CE715B114FFA68ED982FE2EAA8ED /* MonkeyKing+QQUniversalLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+QQUniversalLink.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+QQUniversalLink.swift"; sourceTree = "<group>"; };
 		F973D4ADA580DCC6F84889EC094F0A12 /* Pods-WZShare_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZShare_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBDDD3E5CCC954490069863556E121B9 /* MonkeyKing+Program.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MonkeyKing+Program.swift"; path = "WZShareKit/Classes/SDK/MonkeyKing+Program.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9BBCF12119A9DA59A1FDFEC054D622A3 /* Frameworks */ = {
+		99791CCA62BFB59F66204B8B311F4C6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0805D9047F6CED92C0939FFC4D83993D /* Foundation.framework in Frameworks */,
+				0FF1AC9BAD0BF1A28E8320EEFA93389C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +102,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		435424A6475899E8A32905851910CE59 /* Pod */ = {
+		338CDC49A94F99A894B42EE3D29942FD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				204ECD63B82266013E65813A14DB4A6C /* LICENSE */,
-				2B13E8727F4706B9B8CFA590CD8B0574 /* README.md */,
-				AECD8E750F9D71D4A939A79C84EB1969 /* WZShareKit.podspec */,
+				8B7ED51FDEB187B4E50B0F98FB044346 /* LICENSE */,
+				94CAA20D869A9D2EF05F4457B7379CD3 /* README.md */,
+				A011986E778053AC80052E6DB874BED7 /* WZShareKit.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -117,59 +121,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E0E60D1566A711498A749C5E9CA6980 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C820EB6B4232B703201BEAD4241326F9 /* AnyActivity.swift */,
-				4DEC5DC898FB17AEFA0B05A6FA95ECFD /* Extensions.swift */,
-				CD4E4ED29EF667A2815894864793438B /* Helpers.swift */,
-				5985F45382989C71E76386F60F75C967 /* MonkeyKing.swift */,
-				D82A3407C8B7C698F772E66859C16643 /* MonkeyKing+Error.swift */,
-				082C024BEF2091F6250E98A072D2ABAD /* MonkeyKing+handleOpenURL.swift */,
-				780B2664C3640F6CDB5DC6F55553DEB2 /* MonkeyKing+Message.swift */,
-				82B413A9857D2ED72D68437E6F72F42D /* MonkeyKing+OAuth.swift */,
-				E1E57CAB5250CD11CD08719E4852304D /* MonkeyKing+OpenURL.swift */,
-				E590722FF6796CF462B7F7088FE5BFAD /* MonkeyKing+Pay.swift */,
-				FBDDD3E5CCC954490069863556E121B9 /* MonkeyKing+Program.swift */,
-				43C255567CDDD9992EE8D5DA37B42B11 /* MonkeyKing+SupportedPlatformCapable.swift */,
-				DA7FBD43C5C3F19BB080E76671883513 /* MonkeyKing+WebView.swift */,
-				64EB600C0524BB755B19F64946669EA4 /* Networking.swift */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
 		88F0FBDEE6A656D7A45BD321A6EF2BDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1C31180476A20D13BF0F4991AB80A9A /* WZShareKit */,
+				F6ADBD652BF2EEF8ECBCD9AE78226CA1 /* WZShareKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		963C827CC32B095983A29B251670FB8A /* Support Files */ = {
+		A5F47D2CA64E02EE0F0F5D8D0A5D0B16 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				24DBE2D5FBD7A793AF705ADF9C1052A4 /* WZShareKit.modulemap */,
-				34C9AB6FA20B4CC777E3C18678981076 /* WZShareKit-dummy.m */,
-				60A814E614C4C2A58D5AFD153DB36426 /* WZShareKit-Info.plist */,
-				1190078E1D58233E40EA1BA926B0BF33 /* WZShareKit-prefix.pch */,
-				6F1CFCFD6ECF48F20AF0D309E8D79F0B /* WZShareKit-umbrella.h */,
-				A0B2682694B9DD44007D4DD68A0AE1FD /* WZShareKit.debug.xcconfig */,
-				613094671866AB1487079A839EF8EDC3 /* WZShareKit.release.xcconfig */,
+				34B7684CC9D11EB25A38556FA9FE05ED /* WZShareKit.modulemap */,
+				43C5931382F139AF69F682B4F7281D75 /* WZShareKit-dummy.m */,
+				A6B46E14DA7A8DF0047246C0FF5E173C /* WZShareKit-Info.plist */,
+				2CF5F56EAE63D17150B49F5B0B361AEE /* WZShareKit-prefix.pch */,
+				AC95484CAC93D646DBF4A6D17024E02F /* WZShareKit-umbrella.h */,
+				71985E1CF0F606A0B8026A76C8E42197 /* WZShareKit.debug.xcconfig */,
+				379391DABA0193939DAB6475DB68F134 /* WZShareKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WZShareKit";
-			sourceTree = "<group>";
-		};
-		A1C31180476A20D13BF0F4991AB80A9A /* WZShareKit */ = {
-			isa = PBXGroup;
-			children = (
-				435424A6475899E8A32905851910CE59 /* Pod */,
-				7E0E60D1566A711498A749C5E9CA6980 /* Source */,
-				963C827CC32B095983A29B251670FB8A /* Support Files */,
-			);
-			name = WZShareKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B365DDC2909E4695C1414A6A23C4377D /* Targets Support Files */ = {
@@ -207,6 +179,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D83CDBA756521DEA30F54C3D0496F45B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5883E1FF8F3C2482E6388195C5002595 /* AnyActivity.swift */,
+				0312F5953235A60D2423E160FD771D2C /* Extensions.swift */,
+				32BA469DC39E832F153C9D027D8DEF2C /* Helpers.swift */,
+				A252DDBE5835A7DE30F878100F00C544 /* MonkeyKing.swift */,
+				2B67648D6D00FFE35CE0F328E3780AC9 /* MonkeyKing+Error.swift */,
+				80CF62E0ED982D9541397592C13295FD /* MonkeyKing+handleOpenURL.swift */,
+				8A8807060F260E9923B33C54982703B4 /* MonkeyKing+Message.swift */,
+				A89C0A390AA7A324DAAD62EFB6AF782D /* MonkeyKing+OAuth.swift */,
+				DD6876E3AC3698C642627596B25364AD /* MonkeyKing+OpenURL.swift */,
+				3FBADC72FC9BE1C697704AEE9D5ECEF9 /* MonkeyKing+Pay.swift */,
+				1CA769DB155C9884D26D84C0CD3E2F1C /* MonkeyKing+Program.swift */,
+				E7D2CE715B114FFA68ED982FE2EAA8ED /* MonkeyKing+QQUniversalLink.swift */,
+				B5DC7FD0ACE40259A809C60737AF13CF /* MonkeyKing+SupportedPlatformCapable.swift */,
+				D867CB5C312B2F358EE970752B580481 /* MonkeyKing+WebView.swift */,
+				7F932D47697E2248842D0DDDAA969A03 /* MonkeyKing+WeChatUniversalLink.swift */,
+				27FDD4DCEF66698C2D35985E53FF350A /* Networking.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		DDE8EDEBE82E77146830A997CC0DBD00 /* Pods-WZShare_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,9 +218,28 @@
 			path = "Target Support Files/Pods-WZShare_Example";
 			sourceTree = "<group>";
 		};
+		F6ADBD652BF2EEF8ECBCD9AE78226CA1 /* WZShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				338CDC49A94F99A894B42EE3D29942FD /* Pod */,
+				D83CDBA756521DEA30F54C3D0496F45B /* Source */,
+				A5F47D2CA64E02EE0F0F5D8D0A5D0B16 /* Support Files */,
+			);
+			name = WZShareKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		07792C6314F419778CFB7F061218AFFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8E32789142922347252542FD43A5B2 /* WZShareKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AEA25ADBE5A302E916700D09F31F740 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,25 +248,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6B56B9C09BF2B857DEE81CC7F2AA366 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6679E385C8F8BFED25126046FD1251B1 /* WZShareKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A7DBFF995640EC53689AEE7CB9CBC274 /* WZShareKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16F1E5AAAFFB4D7C9AECA9EC57100C06 /* Build configuration list for PBXNativeTarget "WZShareKit" */;
+			buildConfigurationList = 3D049B092FEAB1DDD70D8863FEB38101 /* Build configuration list for PBXNativeTarget "WZShareKit" */;
 			buildPhases = (
-				E6B56B9C09BF2B857DEE81CC7F2AA366 /* Headers */,
-				2ADE2C5D2C9874034408DF62C7B0B22B /* Sources */,
-				9BBCF12119A9DA59A1FDFEC054D622A3 /* Frameworks */,
-				D4E9A49C852787F5B56ED68AABE3AE7E /* Resources */,
+				07792C6314F419778CFB7F061218AFFA /* Headers */,
+				AF8FE821AB184761A7AE1831DC10C221 /* Sources */,
+				99791CCA62BFB59F66204B8B311F4C6A /* Frameworks */,
+				568BDF51C69278A0A6DD814D5FECC01B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -311,14 +317,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CCFB7FD08A107A1F310243F2F92AFE7F /* Resources */ = {
+		568BDF51C69278A0A6DD814D5FECC01B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4E9A49C852787F5B56ED68AABE3AE7E /* Resources */ = {
+		CCFB7FD08A107A1F310243F2F92AFE7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,33 +334,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2ADE2C5D2C9874034408DF62C7B0B22B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFB7497DE73C2B6F48748401B57562EA /* AnyActivity.swift in Sources */,
-				B8C88CA48E6A231BDC420ED4E42B5A07 /* Extensions.swift in Sources */,
-				EA2E44D721FF29B8A66F5EC725410E1B /* Helpers.swift in Sources */,
-				70B36207E04C2292983D11D75F1DACBE /* MonkeyKing+Error.swift in Sources */,
-				019D5E701D2ADC83D158B783423959F5 /* MonkeyKing+handleOpenURL.swift in Sources */,
-				F50CB3121A4CC04F865FD6B6E7E9D57D /* MonkeyKing+Message.swift in Sources */,
-				A207AEB81527BBF7F35502DEE834A7C0 /* MonkeyKing+OAuth.swift in Sources */,
-				5FC45EE9E7AF56C988F4B6AB13A555A4 /* MonkeyKing+OpenURL.swift in Sources */,
-				317D28195E38F1C7E3D5F9604500C0FA /* MonkeyKing+Pay.swift in Sources */,
-				4C02190E5F6CABCBA23574BB799CFD20 /* MonkeyKing+Program.swift in Sources */,
-				ADEE672DB6A93512BF3A83ABF93CC7A3 /* MonkeyKing+SupportedPlatformCapable.swift in Sources */,
-				2958576DAE8983673109513EDF9600F2 /* MonkeyKing+WebView.swift in Sources */,
-				75B2EAC7C5E280F9329F9ECB70A5E522 /* MonkeyKing.swift in Sources */,
-				D4DEF69DC6830C4545E3B3C651FD9A2C /* Networking.swift in Sources */,
-				D3ABC004D3B945EBBE65D09844504D0D /* WZShareKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A3A40EA0A760E1342860F217A04B62EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FDE8D2ED547F47212D068F481B953E50 /* Pods-WZShare_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8FE821AB184761A7AE1831DC10C221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D8BC51BCE7164EFD9C459ED1C22969 /* AnyActivity.swift in Sources */,
+				F312F81F9DA5FA701E26C36E30BA0520 /* Extensions.swift in Sources */,
+				046CC40D7D17863C021993ED91354EE4 /* Helpers.swift in Sources */,
+				78C5B89FAB1CE1F067340DF31BF89DBB /* MonkeyKing+Error.swift in Sources */,
+				4280B152D09A519BE500ED937B9B38F0 /* MonkeyKing+handleOpenURL.swift in Sources */,
+				C84CCCD4B88E153382D160A775AF1B20 /* MonkeyKing+Message.swift in Sources */,
+				381CFB66F419DAB8868A5FD236B0E660 /* MonkeyKing+OAuth.swift in Sources */,
+				915270AE0AE48EF38C380D79EE59FFF6 /* MonkeyKing+OpenURL.swift in Sources */,
+				96D08D40AD702963B44963381E410FA7 /* MonkeyKing+Pay.swift in Sources */,
+				8B5CDAFA49A2F5E55BB35842BF579518 /* MonkeyKing+Program.swift in Sources */,
+				D9CDBE4D026E6054AE0157C3D6B9938A /* MonkeyKing+QQUniversalLink.swift in Sources */,
+				42E6A5F3B8E31ED697038DDD1D4C0360 /* MonkeyKing+SupportedPlatformCapable.swift in Sources */,
+				E74FDA6AB8DC5C7ACD6BF9F98C41DB0D /* MonkeyKing+WebView.swift in Sources */,
+				7D8043520AD8FD6F1BCC53D829F0E07D /* MonkeyKing+WeChatUniversalLink.swift in Sources */,
+				2490A1AAE05FF2635E6F1F153F25A85D /* MonkeyKing.swift in Sources */,
+				F1CD111B79B88FC24235C103EC53575E /* Networking.swift in Sources */,
+				0AE140E56EEA7267CF1DDB8C4738855C /* WZShareKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +378,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D6492656E7F85FCEDF2FF94F1C2B1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71985E1CF0F606A0B8026A76C8E42197 /* WZShareKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZShareKit/WZShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZShareKit/WZShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZShareKit/WZShareKit.modulemap";
+				PRODUCT_MODULE_NAME = WZShareKit;
+				PRODUCT_NAME = WZShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2229E8916A4E0124EF82FFDDD22DC585 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F973D4ADA580DCC6F84889EC094F0A12 /* Pods-WZShare_Example.release.xcconfig */;
@@ -397,6 +437,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71E5A759B59B3CEFF33F32527A898454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379391DABA0193939DAB6475DB68F134 /* WZShareKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZShareKit/WZShareKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZShareKit/WZShareKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZShareKit/WZShareKit.modulemap";
+				PRODUCT_MODULE_NAME = WZShareKit;
+				PRODUCT_NAME = WZShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -528,38 +601,6 @@
 			};
 			name = Debug;
 		};
-		A2A89C197DF2EE109FF06BC4333775A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B2682694B9DD44007D4DD68A0AE1FD /* WZShareKit.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZShareKit/WZShareKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZShareKit/WZShareKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZShareKit/WZShareKit.modulemap";
-				PRODUCT_MODULE_NAME = WZShareKit;
-				PRODUCT_NAME = WZShareKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B517CD4BF43C759E2EF92B841CB1390E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B5104908EC1E5F86708696582246233 /* Pods-WZShare_Example.debug.xcconfig */;
@@ -593,47 +634,14 @@
 			};
 			name = Debug;
 		};
-		B5B5D03A6CB3315ECD6E72634993D80F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 613094671866AB1487079A839EF8EDC3 /* WZShareKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZShareKit/WZShareKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZShareKit/WZShareKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZShareKit/WZShareKit.modulemap";
-				PRODUCT_MODULE_NAME = WZShareKit;
-				PRODUCT_NAME = WZShareKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16F1E5AAAFFB4D7C9AECA9EC57100C06 /* Build configuration list for PBXNativeTarget "WZShareKit" */ = {
+		3D049B092FEAB1DDD70D8863FEB38101 /* Build configuration list for PBXNativeTarget "WZShareKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2A89C197DF2EE109FF06BC4333775A6 /* Debug */,
-				B5B5D03A6CB3315ECD6E72634993D80F /* Release */,
+				0D6492656E7F85FCEDF2FF94F1C2B1AA /* Debug */,
+				71E5A759B59B3CEFF33F32527A898454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

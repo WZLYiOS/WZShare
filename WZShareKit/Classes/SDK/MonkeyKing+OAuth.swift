@@ -1,9 +1,3 @@
-//
-//  MonkeyKing+OAuth.swift
-//  Pods-WZShare_Example
-//
-//  Created by xiaobin liu on 2020/4/20.
-//
 
 import Foundation
 
@@ -54,42 +48,62 @@ extension MonkeyKing {
                 completionHandler(.failure(.sdk(.invalidURLScheme)))
             }
 
-        case .weChat(let appID, _, _):
+        case .weChat(let appID, _, _, let universalLink):
             let scope = scope ?? "snsapi_userinfo"
+
             if !platform.isAppInstalled {
                 // SMS OAuth
                 // uid??
                 let accessTokenAPI = "https://open.weixin.qq.com/connect/mobilecheck?appid=\(appID)&uid=1926559385"
                 addWebView(withURLString: accessTokenAPI)
             } else {
-                var urlComponents = URLComponents(string: "weixin://app/\(appID)/auth/")
-                urlComponents?.queryItems = [
-                    URLQueryItem(name: "scope", value: scope),
-                    URLQueryItem(name: "state", value: "Weixinauth"),
-                ]
+                var urlComponents: URLComponents?
+                var wxUrlOptions = [UIApplication.OpenExternalURLOptionsKey : Any]()
+
+                if let universalLink = universalLink, let authLink = shared.wechatUniversalLink(of: "auth"), #available(iOS 10.0, *) {
+                    urlComponents = URLComponents(string: authLink)
+                    urlComponents?.queryItems?.append(contentsOf: [
+                        URLQueryItem(name: "scope", value: scope),
+                        URLQueryItem(name: "state", value: "123"), // Weixinauth instead?
+                    ])
+
+                    shared.setPasteboard(of: appID, with: [
+                        "universalLink": universalLink,
+                        "isAuthResend": false,
+                        "command": "0"
+                    ])
+
+                    wxUrlOptions[.universalLinksOnly] = true
+                } else {
+                    urlComponents = URLComponents(string: "weixin://app/\(appID)/auth/")
+                    urlComponents?.queryItems = [
+                        URLQueryItem(name: "scope", value: scope),
+                        URLQueryItem(name: "state", value: "Weixinauth"),
+                    ]
+                }
 
                 guard let url = urlComponents?.url else {
                     completionHandler(.failure(.sdk(.urlEncodeFailed)))
                     return
                 }
 
-                shared.openURL(url) { flag in
+                shared.openURL(url, options: wxUrlOptions) { flag in
                     if flag { return }
                     completionHandler(.failure(.sdk(.invalidURLScheme)))
                 }
             }
-        case .qq(let appID):
+        case .qq(let appID, _):
             let scope = scope ?? ""
             guard !platform.isAppInstalled else {
                 let appName = Bundle.main.monkeyking_displayName ?? "nixApp"
-                let dic = [
+                let dic: [String: Any] = [
                     "app_id": appID,
                     "app_name": appName,
                     "client_id": appID,
                     "response_type": "token",
                     "scope": scope,
                     "sdkp": "i",
-                    "sdkv": "2.9",
+                    "sdkv": "3.3.9_lite",
                     "status_machine": UIDevice.current.model,
                     "status_os": UIDevice.current.systemVersion,
                     "status_version": UIDevice.current.systemVersion,
@@ -217,7 +231,7 @@ extension MonkeyKing {
         shared.oauthFromWeChatCodeCompletionHandler = completionHandler
 
         switch account {
-        case .weChat(let appID, _, _):
+        case .weChat(let appID, _, _, _):
             let scope = scope ?? "snsapi_userinfo"
 
             var urlComponents = URLComponents(string: "weixin://app/\(appID)/auth/")

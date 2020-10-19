@@ -1,7 +1,7 @@
 PODS:
-  - WZShareKit (2.1.0):
-    - WZShareKit/Source (= 2.1.0)
-  - WZShareKit/Source (2.1.0)
+  - WZShareKit (2.2.0):
+    - WZShareKit/Source (= 2.2.0)
+  - WZShareKit/Source (2.2.0)
 
 DEPENDENCIES:
   - WZShareKit (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WZShareKit: 98b846a482c9413dfa24f7a5a3fd7c2223037575
+  WZShareKit: a81cae84e930a37648359cf49f1f343d8be857b8
 
 PODFILE CHECKSUM: ff3cda76ca14d868c5d282de208652be8bbab3d9
 

@@ -90,10 +90,10 @@ final class ViewController: UIViewController {
     /// 注册
     private func registerAccounts() {
         
-        let account = MonkeyKing.Account.weChat(appID: Configs.WeChat.appID, appKey: Configs.WeChat.appKey, miniAppID: Configs.WeChat.miniAppID)
+        let account = MonkeyKing.Account.weChat(appID: Configs.WeChat.appID, appKey: Configs.WeChat.appKey, miniAppID: Configs.WeChat.miniAppID, universalLink: nil)
         MonkeyKing.registerAccount(account)
         
-        let qq = MonkeyKing.Account.qq(appID: Configs.QQ.appID)
+        let qq = MonkeyKing.Account.qq(appID: Configs.QQ.appID, universalLink: nil)
         MonkeyKing.registerAccount(qq)
         
         let weibo = MonkeyKing.Account.weibo(appID: Configs.Weibo.appID, appKey: Configs.Weibo.appKey, redirectURL: Configs.Weibo.redirectURL)
@@ -162,7 +162,7 @@ extension ViewController: UITableViewDelegate {
 //                }
 //            }
             
-            MonkeyKing.weChatOAuthForCode { [weak self] result in
+            MonkeyKing.weChatOAuthForCode { result in
                 switch result {
                 case let .success(code):
                     debugPrint(code)
