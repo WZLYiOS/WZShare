@@ -5,62 +5,14 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.006593">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.003817">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: carthage" time="19.265803">
+      <testcase classname="fastlane.lanes" name="1: carthage" time="25.000061">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="02: pod_lib_lint" time="69.821382">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002331">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.013702">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.030271">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="82.896854">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="07: version_get_podspec" time="0.002192">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="08: git_tag_exists" time="0.011627">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.017011">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="81.683832">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="11: pod_push" time="206.423881">
+          <failure message="/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:253:in `block in execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:27:in `block (2 levels) in parsing_binding'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.146.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'carthage build --no-skip-current --platform iOS' was 1 instead of 0.&#10;*** xcodebuild output can be found in /var/folders/vk/jb4tt_gd59xb6p489x4zjrk00000gn/T/carthage-xcodebuild.MGW6WS.log&#10;*** Building scheme &quot;WZShareKit&quot; in WZShare.xcworkspace&#10;Build Failed&#10;	Task failed with exit code 1:&#10;	/usr/bin/xcrun lipo -create /Users/xiaobinliu/Library/Developer/Xcode/DerivedData/WZShare-ctfylqbzdiznztgsohativrewcaw/Build/Intermediates.noindex/ArchiveIntermediates/WZShareKit/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/WZShareKit.framework/WZShareKit /Users/xiaobinliu/Library/Developer/Xcode/DerivedData/WZShare-ctfylqbzdiznztgsohativrewcaw/Build/Products/Release-iphonesimulator/WZShareKit/WZShareKit.framework/WZShareKit -output /Users/xiaobinliu/Desktop/WZiOS/WZShare/Carthage/Build/iOS/Static/WZShareKit.framework/WZShareKit&#10;&#10;This usually indicates that project itself failed to compile. Please check the xcodebuild log for more details: /var/folders/vk/jb4tt_gd59xb6p489x4zjrk00000gn/T/carthage-xcodebuild.MGW6WS.log&#10;" />
         
       </testcase>
     

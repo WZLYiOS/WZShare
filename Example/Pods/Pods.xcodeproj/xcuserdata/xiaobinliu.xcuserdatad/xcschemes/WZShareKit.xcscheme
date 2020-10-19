@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B276ABF5CBF739A7F59EC066ABA04EE8"
-               BuildableName = "Pods-WZShare_Example.framework"
-               BlueprintName = "Pods-WZShare_Example"
+               BlueprintIdentifier = "A7DBFF995640EC53689AEE7CB9CBC274"
+               BuildableName = "WZShareKit.framework"
+               BlueprintName = "WZShareKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

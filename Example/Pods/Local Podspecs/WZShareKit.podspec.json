@@ -25,13 +25,6 @@
     {
       "name": "Source",
       "source_files": "WZShareKit/Classes/SDK/*.swift"
-    },
-    {
-      "name": "Binary",
-      "vendored_frameworks": "Carthage/Build/iOS/Static/WZShareKit.framework",
-      "user_target_xcconfig": {
-        "LIBRARY_SEARCH_PATHS": "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
-      }
     }
   ],
   "swift_version": "5.0"

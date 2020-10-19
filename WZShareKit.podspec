@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'WZShareKit/Classes/SDK/*.swift'
   end
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZShareKit.framework"
-    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
-  end
+  #s.subspec 'Binary' do |ss|
+  #  ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZShareKit.framework"
+  #  ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
+  #end
 end
